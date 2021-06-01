@@ -57,3 +57,5 @@ function createLine(index, where) {
   where.appendChild(line);
 };
 createBoardDiv(25);
+//6
+color1.className += ' selected';
