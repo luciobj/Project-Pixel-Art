@@ -67,7 +67,7 @@ for (element of color) {
 function changeSelectedColor(event) {
   for (element of color) {
     if (element.className.include = ' selected') {
-      element.className -= ' selected';
+      element.className = 'color';
     }
   }
   event.target.className += ' selected';
@@ -78,14 +78,7 @@ for (element of pixels) {
   element.addEventListener('click', changeColor);
 };
 function changeColor (event) {
-  selectedColor = document.getElementsByClassName('selected')[0];
-  color = selectedColor.style.backgroundColor;
+  const selectedColor = document.getElementsByClassName('selected')[0];
+  const color = selectedColor.style.backgroundColor;
   event.target.style.backgroundColor = color;
-};
-//9
-const clearButom = document.createElement ('butom');
-clearButom.classList = 'butom';
-clearButom.addEventListener ('click', resetPixels);
-function resetPixels () {
-  pixels.style.backgroundColor = 'white';
 };
