@@ -82,3 +82,10 @@ function changeColor (event) {
   color = selectedColor.style.backgroundColor;
   event.target.style.backgroundColor = color;
 };
+//9
+const clearButom = document.createElement ('butom');
+clearButom.classList = 'butom';
+clearButom.addEventListener ('click', resetPixels);
+function resetPixels () {
+  pixels.style.backgroundColor = 'white';
+};
