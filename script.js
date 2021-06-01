@@ -71,4 +71,14 @@ function changeSelectedColor(event) {
     }
   }
   event.target.className += ' selected';
+}
+//8
+const pixels = document.getElementsByClassName('pixel');
+for (element of pixels) {
+  element.addEventListener('click', changeColor);
+};
+function changeColor (event) {
+  selectedColor = document.getElementsByClassName('selected')[0];
+  color = selectedColor.style.backgroundColor;
+  event.target.style.backgroundColor = color;
 };
