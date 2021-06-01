@@ -59,3 +59,16 @@ function createLine(index, where) {
 createBoardDiv(25);
 //6
 color1.className += ' selected';
+//7
+const color = document.getElementsByClassName('color');
+for (element of color) {
+  element.addEventListener('click', changeSelectedColor);
+}
+function changeSelectedColor(event) {
+  for (element of color) {
+    if (element.className.include = ' selected') {
+      element.className -= ' selected';
+    }
+  }
+  event.target.className += ' selected';
+};
