@@ -11,6 +11,40 @@ body {
   background-color: silver;
   width: 200px;
   height: 20px;
+  margin: 5px;
+}
+
+#generate-board {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  width: 60px;
+  height: 33px;
+}
+
+div .line {
+  margin: 0;
+  line-height: 0;
+}
+
+#line1 {
+  margin-top: 50px;
+}
+
+#color-palette {
+  margin-bottom: 20px;
+}
+
+#color2 {
+  margin-left: 5px;
+}
+
+#color3 {
+  margin-left: 5px;
+}
+
+#color4 {
+  margin-left: 5px;
 }
 
 /* 2 */
