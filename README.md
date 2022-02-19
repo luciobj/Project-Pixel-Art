@@ -21,7 +21,7 @@ Copy the ssh from the project `git@github.com:luciobj/Project-Pixel-Art.git`
 
 ---
 
-### Tecnologys
+### Technologies
 
 This project was developed using HTML and DOM features, and a little bit of CSS styling.
 
