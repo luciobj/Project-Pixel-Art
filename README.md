@@ -15,7 +15,7 @@ Copy the ssh from the project `git@github.com:luciobj/Project-Pixel-Art.git`
 * Open a terminal int your machine and type the following commands in order:
 
   * `git clone git@github.com:luciobj/Project-Pixel-Art.git`
-  * `cd Project-Recipes-App`
+  * `cd Project-Pixel-Art`
 
   From here you can open the html file with your editor of choice, and/or run a server to see the end result. I recommend using VSCode, and using the Live Server extension for such.
 
