@@ -10,11 +10,11 @@ The goal was to create a pixel art palette, where you could fill the pixels with
 
 ## How to install
 
-Copy the ssh from the project `https://github.com/luciobj/Project-Pixel-Art`
+Copy the ssh from the project `git@github.com:luciobj/Project-Pixel-Art.git`
 
-* Open a terminal int your machine and type the following commands in ordedr:
+* Open a terminal int your machine and type the following commands in order:
 
-  * `git clone https://github.com/luciobj/Project-Pixel-Art`
+  * `git clone git@github.com:luciobj/Project-Pixel-Art.git`
   * `cd Project-Recipes-App`
 
   From here you can open the html file with your editor of choice, and/or run a server to see the end result. I recommend using VSCode, and using the Live Server extension for such.
